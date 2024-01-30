@@ -13,7 +13,7 @@ async function getData() {
   }
   async function print() 
   {
-    let reqData = await getData();
+    let DataArray = await getData();
     console.log(DataArray);
   }
   print();
